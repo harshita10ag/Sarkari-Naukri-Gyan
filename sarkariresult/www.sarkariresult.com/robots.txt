@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: https://sarkarinaukrigyan.com/latestjob.php
+Disallow: https://sarkarinaukrigyan.com/result.php
