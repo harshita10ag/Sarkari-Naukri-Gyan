@@ -1,5 +1,3 @@
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L]
-</IfModule>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^sarkarinaukrigyan.com$
+RewriteRule ^(.*)$ http://sarkarinaukrigyan.com$1 [R=301,L]
